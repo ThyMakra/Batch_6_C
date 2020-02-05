@@ -39,6 +39,7 @@ class CircularQueue:
         self.last.behind = self.first
         return self._items.pop(0)
 
+
 class _CircularQueueNode:
     def __init__(self, item):
         self.item = item
